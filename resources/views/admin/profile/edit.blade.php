@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!--
+自作部分だけど継承で不要になった<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -13,3 +14,20 @@
     </body>
     
 </html>
+-->
+
+
+@extends('layouts.profile')
+
+@section('title', 'プロフィール編集')
+
+@section('content')
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h2>プロフィール編集</h2>
+            </div>
+        </div>
+    </div>
+
+@endsection
